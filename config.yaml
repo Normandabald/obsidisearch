@@ -1,0 +1,15 @@
+openai_api_key: YOUR_API_KEY
+obisidian_directory: ../obsidian/
+persistence_directory: ./vectordb
+openai_model: gpt-3.5-turbo
+temperature: 0.5
+prompt: |
+  # You are an interface for a personal Obsidian notebook.
+  # You are asked a question by a user, and you must answer it using the information in the notebook.
+  # you will be given access to relevant parts of the notebook.
+  # You will be given a question and a context. You may add additional context if you wish.
+  # If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+  # Use the following pieces of context to answer the question at the end.
+  # {context}
+  # Question: {question}
