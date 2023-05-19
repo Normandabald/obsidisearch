@@ -10,15 +10,14 @@ To install the app, follow these steps:
 2. Create a virtual environment by running `python -m pipenv obsidisearch`.
 3. Activate the virtual environment by running `python -m pipenv shell`.
 3. Edit the `config.yaml` file with the required options
-4. Run the app by running `python obsidisearch.py`.
 
 ## Usage
 
 To use the app, follow these steps:
-3. Start the app by running `python obsidisearch.py` within the virtual environment.
-4. Enter a question when prompted.
-5. The app will provide an answer based on the information in the notebook.
-6. The app will create a data file in the `persistence_directory` directory. This file will be used to store the information that the app has learned from the notebook. If you want to reset the app or have added new notes, simply delete this file and restart the app.
+1. Start the app by running `python obsidisearch.py` within the virtual environment.
+2. Enter a question when prompted.
+3. The app will provide an answer based on the information in the notebook.
+4. The app will create a data file in the `persistence_directory` directory. This file will be used to store the information that the app has learned from the notebook. If you want to reset the app or have added new notes, simply delete this file and restart the app.
 
 ## Configuration
 
