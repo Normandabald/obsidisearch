@@ -29,6 +29,7 @@ The `config.yaml` file contains the following options:
 - `openai_api_key`: Your OpenAI API key.
 - `obisidian_directory`: The directory path where your Obsidian notes are stored.
 - `persistence_directory`: The directory path where the app will store its data.
+- `use_chat_model`: Whether to use a chat model or not.
 - `openai_model`: The OpenAI model to use for generating answers.
 - `temperature`: The temperature to use when generating answers.
 - `prompt`: The prompt to use when generating answers.
