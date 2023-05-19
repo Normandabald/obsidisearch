@@ -16,7 +16,7 @@ To install the app, follow these steps:
 To use the app, follow these steps:
 
 1. Create a virtual environment by running `python -m pipenv obsidisearch`.
-2. Activate the virtual environment by running `pipenv shell`.
+2. Activate the virtual environment by running `python -m pipenv shell`.
 3. Start the app by running `python obsidisearch.py`.
 4. Enter a question when prompted.
 5. The app will provide an answer based on the information in the notebook.
